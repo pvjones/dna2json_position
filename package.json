@@ -3,7 +3,10 @@
   "description": "Formats your DNA file as JSON",
   "version": "1.0.1",
   "homepage": "http://github.com/genomejs/dna2json",
-  "repository": "git://github.com/genomejs/dna2json.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/genomejs/dna2json.git"
+  },
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
   "main": "./index.js",
   "tags": [
@@ -35,5 +38,15 @@
       "type": "MIT",
       "url": "http://github.com/genomejs/dna2json/raw/master/LICENSE"
     }
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/genomejs/dna2json/issues"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
